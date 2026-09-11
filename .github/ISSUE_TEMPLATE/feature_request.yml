@@ -1,0 +1,42 @@
+name: Feature request
+description: Propose a focused enhancement to a SALT19 public repository
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for public product or engineering suggestions. Do not include confidential customer requirements or nonpublic roadmap information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or need
+      description: What concrete problem would this feature solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed capability
+      description: Describe the desired behavior or interface without prescribing unnecessary implementation details.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Operational context or evidence
+      description: Provide examples, workflows, measurements, or constraints that support the request.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing workarounds, related modules, or simpler approaches that may already address the need.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: I searched existing issues for similar requests.
+          required: true
+        - label: This request contains no credentials or confidential information.
+          required: true
