@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: mailto:info@salt19.com
+    about: Report vulnerabilities and security-sensitive issues privately. Do not open a public issue.
+  - name: SALT19 website
+    url: https://salt19.com
+    about: Company information and general contact.
